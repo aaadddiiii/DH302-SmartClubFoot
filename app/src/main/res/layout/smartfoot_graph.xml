@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_weight="0.26"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tv_date"
+        android:layout_weight="0.74">
+
+        <LinearLayout
+            android:id="@+id/topLL"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/leftLeg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#7E5459"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/rightLeg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#3B6095"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomLL"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/leftShoe"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#5F4F64"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/rightShoe"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#565656"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ant.smartclubfoot"
+4    android:versionCode="10"
+5    android:versionName="4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml
+10    <!-- Required for foreground services on P+. -->
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:6:5-77
+11-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:6:22-74
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:7:5-68
+12-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:8:5-74
+13-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:8:22-71
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:9:5-79
+14-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:10:5-81
+15-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:11:5-67
+16-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:11:22-64
+17
+18    <application
+18-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:13:5-57:19
+19        android:name="com.ant.smartclubfoot.SmartClubFootApp"
+19-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:14:9-41
+20        android:allowBackup="true"
+20-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:15:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\aa042ac52cdb4f6e57696ec21e79ed81\core-1.3.1\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:16:9-43
+24        android:label="@string/app_name"
+24-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:17:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:18:9-54
+26        android:supportsRtl="true"
+26-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:19:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme"
+28-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:20:9-40
+29        android:usesCleartextTraffic="true" >
+29-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:21:9-44
+30        <activity android:name="com.ant.smartclubfoot.activity.HomeActivity" >
+30-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:23:9-24:20
+30-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:23:19-56
+31        </activity>
+32        <activity android:name="com.ant.smartclubfoot.activity.ConnectDeviceActivity" />
+32-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:25:9-68
+32-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:25:19-65
+33        <activity android:name="com.ant.smartclubfoot.activity.SignUpActivity" />
+33-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:26:9-61
+33-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:26:19-58
+34        <activity android:name="com.ant.smartclubfoot.activity.LoginActivity" >
+34-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:27:9-28:20
+34-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:27:19-57
+35        </activity>
+36        <activity
+36-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:29:9-32:59
+37            android:name="com.ant.smartclubfoot.activity.DeviceListActivity"
+37-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:30:13-56
+38            android:label="@string/app_name"
+38-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:31:13-45
+39            android:theme="@android:style/Theme.Dialog" />
+39-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:32:13-56
+40        <activity android:name="com.ant.smartclubfoot.activity.MainActivity" >
+40-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:33:9-39:20
+40-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:33:19-56
+41            <intent-filter>
+41-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:34:13-38:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:35:17-69
+42-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:35:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:37:17-77
+44-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:37:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:41:9-45:63
+49            android:name="com.ant.smartclubfoot.service.UartService"
+49-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:42:13-48
+50            android:enabled="true"
+50-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:43:13-35
+51            android:exported="true"
+51-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:44:13-36
+52            android:foregroundServiceType="connectedDevice" />
+52-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:45:13-60
+53
+54        <receiver
+54-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:47:9-56:20
+55            android:name="com.ant.smartclubfoot.activity.receiver.MyAlarmReceiver"
+55-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:48:13-62
+56            android:directBootAware="true"
+56-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:49:13-43
+57            android:enabled="true"
+57-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:50:13-35
+58            android:exported="true" >
+58-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:51:13-36
+59            <intent-filter>
+59-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:52:13-55:29
+60                <action android:name="com.ant.smartclubfoot.receiver" />
+60-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:53:17-73
+60-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:53:25-70
+61                <action android:name="android.intent.action.BOOT_COMPLETED" />
+61-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:54:17-79
+61-->D:\Semester 7\DH 302\Project\SmartClubFoot\app\src\main\AndroidManifest.xml:54:25-76
+62            </intent-filter>
+63        </receiver>
+64        <!--
+65		Service used to scan in background to emulate scanning with
+66		PendingIntent on Android 4.3 - 7.x. Service will scan in background with given
+67		settings and filters.
+68        -->
+69        <service
+69-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:31:9-33:40
+70            android:name="no.nordicsemi.android.support.v18.scanner.ScannerService"
+70-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:32:13-84
+71            android:exported="false" />
+71-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:33:13-37
+72        <!--
+73		The receiver used to scan with PendingIntent on Android 8+.
+74		It will translate results from android.bluetooth.le package to
+75		no.nordicsemi.android.support.v18, apply filters or perform batching,
+76		depending on the settings.
+77        -->
+78        <receiver
+78-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:41:9-48:20
+79            android:name="no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver"
+79-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:42:13-91
+80            android:exported="true" >
+80-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:43:13-36
+81            <intent-filter>
+81-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:45:13-47:29
+82                <action android:name="no.nordicsemi.android.support.v18.ACTION_FOUND" />
+82-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:46:17-89
+82-->[no.nordicsemi.android.support.v18:scanner:1.4.2] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\6845a7256ca00f9cd9dd39479b9774e6\scanner-1.4.2\AndroidManifest.xml:46:25-86
+83            </intent-filter>
+84        </receiver>
+85    </application>
+86
+87</manifest>

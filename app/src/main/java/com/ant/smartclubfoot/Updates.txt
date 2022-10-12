@@ -1,0 +1,22 @@
+//TODO : this file shall contain all the changes made/ to make to the application
+
+Notes
+---------------------------
+The HomeActivity is the actual Main Activity (stupid developer),which is actually used
+as a splash, activity_main.xml is linked to HomeActivity
+
+
+
+Changed
+1. Changed the logout button to work and logout the user
+2.
+
+
+To Change
+1. Change the login process to implement secure cloud login
+2. Implement the signup page with authentication // In process
+3. Implement a Splash Screen
+4. Implement cloud backend instead of local saving
+5. Implement Admin mode for the professional to see all profiles under him
+6. Change list view to ReCyclerView
+7. Clean the code and make it readable
