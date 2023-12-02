@@ -1,0 +1,63 @@
+//TODO : this file shall contain all the changes made/ to make to the application
+
+Notes
+---------------------------
+The HomeActivity is the actual Main Activity (stupid developer),which is actually used
+as a splash, activity_main.xml is linked to HomeActivity
+
+
+
+Changed
+//TODO 13-10-22
+Changed the logout button to work and logout the user
+
+//TODO 16-10-22
+Added cloud support dependencies for authentication via online database
+Redesigned the login page to accept email and password
+
+//TODO 20-10-22
+Configured Firebase backend to accept email and password verification
+Fixed issue with login not being able to read from database
+Designed the signup page and implemented quering the database to check and login valid users
+Added Appropriate Splash activity ;)
+Accidentally slid a message saying I am a magician and maybe can show a few tricks on request:)
+
+
+//TODO 21-10-22
+Changed the logout to query the database instead of using local resources
+
+//TODO 25-10-12
+Started working on implementing sending data to cloud
+Added database dependencies to store the data
+Added new class "Cloud_Data" to create a document to contain the data
+
+//TODO 28-10-12
+Implemented cloud based saving of data for multiple entries
+Fixed database issue where it kept saving all data in a single person's path
+Started working on displaying the stored data from the cloud
+    - Implemented Layout of the ViewData Page
+
+
+//TODO 01-11-22
+Implemented separate page for sending data to cloud
+
+//TODO 04-11-22
+Started working on retrieving data from the database
+As expected it is a pia, ran into multiple bugs and errors
+
+
+To Change
+1. Change the login process to implement secure cloud login // done
+2. Implement the signup page with authentication // done
+3. Implement a Splash Screen // very done
+4. Implement cloud backend instead of local saving // done for the uploading part (have made some assumptions on data)
+5. Implement Admin mode for the professional to see all profiles under him // (doesn't seem viable for now)
+6. Change list view to ReCyclerView // would be pain ita
+7. Clean the code and make it readable // In process
+
+Ideas
+1. Saving of data should be availabe regardless of internet connectivity
+2. Login without cloud connectivity
+3. Send data to cloud once a day or whenever there is connectivity
+4.
+5.
